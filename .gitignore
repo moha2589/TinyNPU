@@ -11,3 +11,21 @@ test/sim_build
 test/__pycache__/
 test/results.xml
 test/gate_level_netlist.v
+
+# Simulation output
+sim_build/
+*.vcd
+*.fst
+results.xml
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Hardening runs
+runs/
+
+# Large model checkpoints (keep exported int8 weights, not .pt files)
+*.pt
+*.pth
