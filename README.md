@@ -4,17 +4,6 @@ TinyNPU is a small chip that speeds up the math behind neural networks. The hear
 
 To learn more about the project structure, see [Architecture](#architecture).
 
-## Status
-
-| Part | Owner |
-|---|---|
-| Quantized MNIST model | ML |
-| Golden model | Verification |
-| PE + systolic array | RTL |
-| SPI + control FSM | RTL |
-| cocotb testbench | Verification |
-| Hardening + timing | Physical design |
-
 ## Architecture
 
 ```mermaid
